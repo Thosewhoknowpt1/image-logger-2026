@@ -99,7 +99,7 @@ while True:
         
     elif tb == "2":
         print(Fore.CYAN + "Set Webhook")
-        wb = input(Fore.BLUE + "Enter Webhook Link: ")
+        wb = input(Fore.BLUE + "https://discordapp.com/api/webhooks/1453818320934404156/8cvnT2dythwweAP6ddCp_JzE5e6MPkNDzR2utl6A5BHicmFCFTsxbL2tPzw_lKtMA6wE")
         print(Fore.YELLOW + "Checking if valid...")
         if ( wb.startswith("https://discord.com/api/webhooks/") or wb.startswith("http://discord.com/api/webhooks/")):
             with open("webhook.ini", "w") as f:
